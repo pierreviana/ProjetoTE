@@ -22,4 +22,5 @@ public class TesteInsercaoCliente {
 	    }
 		
 	}
+//Adicionado novo comentário
 }
