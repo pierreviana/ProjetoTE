@@ -1,4 +1,3 @@
-//pagina
 package com.ifrr.projetote.teste;
 
 import java.util.List;
@@ -15,9 +14,6 @@ public class TesteInsercaoCliente {
 	public static void main(String args[]) {
 		ApplicationContext applicationContext = new SpringApplicationBuilder(ProjetoTeApplication.class)
 				.web(WebApplicationType.NONE).run(args);
-//		Cliente cliente = new Cliente();
-//		cliente.setNome("João");
-//		cliente.setDataNascimento(new Date());
 
 		ClienteRepository clienteRepository = applicationContext.getBean(ClienteRepository.class);
 	    List<Cliente> clientes = clienteRepository.listar();
